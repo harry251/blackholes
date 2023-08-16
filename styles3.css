@@ -1,0 +1,75 @@
+/* Body Styling */
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: black;
+   color: white;
+   /* Removed height: 100vh; */
+   display: flex;
+   align-items: flex-start; /* Aligned content to top */
+   justify-content: center;
+}
+
+/* Content Wrapper Styling */
+.content-wrapper {
+   max-width: 900px;
+   padding: 40px 20px 20px 20px; /* Added padding at the top */
+   box-sizing: border-box;
+   line-height: 1.6;
+   text-align: center; 
+}
+
+/* Heading 1 Styling */
+h1 {
+   font-size: 2em;
+   border-bottom: 1px solid white;
+   padding-bottom: 10px;
+   margin-bottom: 20px;
+}
+
+/* Heading 2 Styling */
+h2 {
+   font-size: 1.5em;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+/* Paragraph and Ordered List Styling */
+p, ol {
+   font-size: 1em;
+   text-align: justify;
+   margin-bottom: 20px;
+}
+
+/* Ordered List Styling */
+ol {
+   list-style-position: inside;
+}
+
+/* Link Styling */
+a {
+   color: lightblue;
+   text-decoration: none;
+}
+
+/* Hover effect for links */
+a:hover {
+   text-decoration: underline;
+}
+
+/* Back Button Styling */
+.back-button {
+   display: inline-block;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+   border: 2px solid white;
+   border-radius: 5px;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for the back button */
+.back-button:hover {
+   background-color: white;
+   color: black;
+}

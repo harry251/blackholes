@@ -1,0 +1,154 @@
+/* Basic Resets for body and html */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* Body styling */
+body {
+  font-family: sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+/* Title styling */
+#title {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000080;
+  margin-bottom: 0;
+  z-index: 2;  /* On top of animation overlay */
+}
+
+/* Scrollable section styling */
+#scrollable {
+  height: calc(100vh * 5); /* 5 times the viewport height */
+  width: 100%;
+  position: absolute;
+  top: 100vh;
+  background: linear-gradient(to bottom, #000080 0%, black 100%);
+  z-index: 0;
+}
+
+/* Stage at the bottom of scrollable */
+#stage {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #222;
+}
+
+/* Animation overlay (expanding black circle) */
+#animation-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  background-color: #000080;
+  border-radius: 100%;
+  z-index: 1;
+  animation: expand 2s forwards 2s; /* Expand animation */
+}
+
+/* Keyframes for expand animation */
+@keyframes expand {
+  100% {
+    width: 150vw; /* Cover the entire viewport width */
+    height: 150vh; /* Cover the entire viewport height */
+  }
+}
+
+/* Canvas styling for lightspeed animation */
+#lightspeed-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Door and its components styling */
+.door {
+  position: absolute;
+  width: 120px;
+  height: 200px;
+  top: -205px;
+  left: 50%;
+  transform: translateX(-50%);
+  perspective: 800px;
+}
+
+/* Door panel styling */
+.door-panel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #c3c2c7;
+  border: 2px solid #666;
+  transform-origin: 0% 0%;
+  transform-style: preserve-3d;
+  transform: rotateY(-10deg);
+}
+
+/* Door handle styling */
+.door-handle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  right: 10px;
+  border-radius: 50%;
+  background-color: #666;
+  transform: rotateY(-10deg);
+  transition: transform 0.5s ease, right 0.5s ease, background-color 0.5s ease; /* Add transitions */
+}
+
+/* Door frame styling */
+.door-frame {
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  border: 6px solid #964b00;
+  box-sizing: border-box;
+  z-index: -1;  /* Below the other door components */
+  background-color: #333;
+}
+
+/* Hover effects for the door */
+.door:hover .door-panel {
+  transform: rotateY(-40deg); /* Slight open on hover */
+  transition: transform 0.5s ease; /* Animation effect */
+}
+
+/* Hover effects for the door handle */
+.door:hover .door-handle {
+  background-color: gold; /* Handle color changes on hover */
+  transform: rotateY(-40deg); /* Slight open on hover */
+  right: 35px; /* move the handle from right 10 px to right 25 px */
+}
+
+/* Lightbulb styling */
+.lightbulb {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  top: -55px;
+  left: 50%;
+  margin-left: -15px;
+  z-index: -1;  /* Below the other door components */
+  box-shadow: 0 0 150px 40px white; /* Glow effect */
+}
