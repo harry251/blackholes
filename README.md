@@ -11,11 +11,8 @@ Delve deep into the mysteries of the cosmos as we explore one of its most enigma
 - [Features](#features)
 - [Chatbot: Your Cosmic Guide](#chatbot-your-cosmic-guide)
 - [Sections Explained](#sections-explained)
-- [Conclusion](#conclusion)
-- [How to Use](#how-to-use)
+- [Our Cosmic Invitation](#our-cosmic-invitation)
 - [Technologies Used](#technologies-used)
-- [Project Log](#project-log)
-- [Contributing](#contributing)
 
 ---
 
@@ -30,6 +27,14 @@ The project began with a simple premise: How do we make the complex science of b
 ## **Conceptualization and Development**
 
 The primary objective was to move away from the traditional means of disseminating information. Instead of just static texts and images, an immersive and engaging digital experience was envisioned. The focus was not just to provide facts but to tell a story, to let the visitors embark on a journey — a journey as compelling as the universe itself.
+
+---
+
+## **Features**
+
+- **Engaging Animations**: Dive into the expansive void of a black hole with our darkness expanding animation.
+  
+- **Interactive Chatbot**: Have queries? Our AI-powered chatbot, acting as a Black Hole Expert, is here to help.
 
 ---
 
@@ -54,13 +59,9 @@ The different sections of the website serve distinct purposes:
 
 ---
 
-## **Conclusion**
+## **Our Cosmic Invitation**
 
 I invite you to dive into the mysteries of the universe. Discover the enigma of black holes in an interactive, engaging, and innovative manner. Whether you're here for the immersive animations, the comprehensive knowledge, or the digital interactions, my website promises a journey worth embarking upon.
-
----
-
-## **How to Use**
 
 1. Visit the website [here](https://harry251.github.io/blackholes/).
   
@@ -80,16 +81,6 @@ I invite you to dive into the mysteries of the universe. Discover the enigma of 
   
 - **JavaScript**: To make the website dynamic and interactive.
   
-- **Botpress**: For creating the AI-powered chatbot.
+- **Botpress**: For creating the chatbot.
 
 ---
-
-## **Project Log**
-
-A detailed account of the development process, challenges faced, and milestones achieved can be found [here](link_to_project_log_if_available).
-
----
-
-## **Contributing**
-
-Interested in contributing? Please read our [contributing guidelines](link_to_contributing_guidelines) and feel free to submit pull requests or open issues.
