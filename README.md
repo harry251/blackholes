@@ -34,7 +34,7 @@ The primary objective was to move away from the traditional means of disseminati
 
 - **Engaging Animations**: Dive into the expansive void of a black hole with our darkness expanding animation.
   
-- **Interactive Chatbot**: Have queries? Our AI-powered chatbot, acting as a Black Hole Expert, is here to help.
+- **Interactive Chatbot**: Have queries? Our "Black Hole Expert" chatbot is here to help.
 
 ---
 
