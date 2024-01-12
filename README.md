@@ -84,3 +84,7 @@ I invite you to dive into the mysteries of the universe. Discover the enigma of 
 - **Botpress**: For creating the chatbot.
 
 ---
+
+## License
+
+This project is licensed under the [Apache 2.0 License](https://opensource.org/license/apache-2-0/). By using this extension, you agree to the terms and conditions of the license.
